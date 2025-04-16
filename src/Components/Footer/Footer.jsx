@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import facebook_icon from "../../assets/download.png";
-import twitter_icon from "../../assets/download1.png";
-import linkedin_icon from "../../assets/linkedin_icon.png";
+import whatsapp_icon from "../../assets/icons8-whatsapp-48.png";
+import instagram_icon from "../../assets/icons8-instagram-48.png";
+import linkedin_icon from "../../assets/icons8-linkedin-48.png";
 import logo from "../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
               href="https://www.instagram.com/mj.media.in?igsh=MWdyYjZwMzZ3bHk1bA==  "
               target="_main"
             >
-              <img className="insta" src={facebook_icon} alt="" />
+              <img className="insta" src={instagram_icon} alt="" />
             </a>
             <a
               href="https://www.linkedin.com/in/m-j-media-814754325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -35,7 +35,7 @@ const Footer = () => {
               href="https://whatsapp.com/channel/0029VaYduDaKGGGAc1SNjF3e"
               target="_main"
             >
-              <img src={twitter_icon} alt="" />
+              <img src={whatsapp_icon} alt="" />
             </a>
           </div>
         </div>

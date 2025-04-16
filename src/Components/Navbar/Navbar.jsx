@@ -60,7 +60,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item cursor-pointer">
               <NavLink className="nav-link" to="/services">
-               Services
+                Services
               </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
@@ -84,14 +84,14 @@ const Navbar = () => {
                 Gallery
               </NavLink>
             </li>
-            {/* <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/students">
-                Students
+            <li className="nav-item cursor-pointer">
+              <NavLink className="nav-link" to="/team">
+               Team
               </NavLink>
-            </li> */}
+            </li>
             <li className="nav-item cursor-pointer">
               <NavLink to="/contact">
-                <button className="nav-btn btn"> Contact Us</button>
+                <button className="nav-btn btn rgb-border-btn">Contact Us</button>
               </NavLink>
             </li>
           </ul>

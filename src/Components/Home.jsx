@@ -72,7 +72,8 @@ const HomePage = () => {
               </a>
             </li>
             <li>
-              <a href="#contact-us">Contact Us</a>
+               <a href="#contact-us ">Contact Us</a>
+            
             </li>
           </ul>
         </Col>

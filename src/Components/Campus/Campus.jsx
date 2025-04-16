@@ -16,7 +16,7 @@ const Campus = () => {
         <img src={gallary_4} alt="" />
       </div>
       <Link to={"/gallery"}>
-        <button className="btn dark-btn">
+        <button className="btn dark-btn rgb-border-btn">
           See More Here <img src={white_arrow} alt="arrow" />
         </button>
       </Link>

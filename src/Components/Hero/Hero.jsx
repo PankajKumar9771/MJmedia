@@ -18,8 +18,8 @@ const Hero = () => {
   return (
     <div className="hero min-vh-100 w-100 ">
       <div className="hero-text">
-        <h1>THE MJ MEDIA</h1>
-        <h3>INTELLIGANCE OF FUTURE</h3>
+        <h1>THE MJ.MEDIA</h1>
+        <h3>Making Your Brand Loud & Clear</h3>
         <br />
         <br />
         <br />
@@ -31,7 +31,7 @@ const Hero = () => {
           promised on results. The end result is unhappy clients wasting a lot
           of money and resources.
         </p>
-        <button className="btn" onClick={handleExploreClick}>
+        <button className="btn rgb-border-btn" onClick={handleExploreClick}>
           Explore More <img src={dark_arrow} alt="" />
         </button>
       </div>

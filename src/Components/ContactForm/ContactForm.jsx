@@ -87,7 +87,7 @@ const ContactForm = () => {
             placeholder="Enter your message"
             required
           ></textarea>
-          <button type="submit" className="btn dark-btn">
+          <button type="submit" className="rgb-border-btn btn dark-btn">
             Submit Now <img src={white_arrow} alt="" />
           </button>
         </form>

@@ -4,6 +4,7 @@
 * {
   font-family: "Outfit", sans-serif !important;
   box-sizing: border-box !important;
+  
 }
 
 .container {
@@ -34,3 +35,43 @@
   color: #fff;
   background: #212ea2;
 }
+
+
+ .rgb-border-btn {
+ 
+  font-size: 16px;
+   color: white;             
+  background: #111;     
+  border: 4px solid transparent;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.rgb-border-btn::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(45deg, red, yellow, lime, cyan, blue, magenta, red);
+  background-size: 400%;
+  z-index: -1;
+  border-radius: inherit;
+  animation: rgbMove 5s linear infinite;
+}
+
+@keyframes rgbMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

@@ -7,7 +7,7 @@ const Achedemics = () => {
   return (
     <div>
       <Title subtitle={"Our Services"} title={"What We Offer"} />
-      <Programs />
+      {/* <Programs /> */}
      <TeachingMethod/>
     </div>
   );
