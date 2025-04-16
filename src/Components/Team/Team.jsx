@@ -5,7 +5,7 @@ import Title from "../Title/Title";
 const teamMembers = [
   {
     title: "CEO",
-    name: "Rahul Sharma",
+    name: "Aman Kumar Gupta",
     img: "https://static.vecteezy.com/system/resources/thumbnails/028/794/707/small_2x/cartoon-cute-school-boy-photo.jpg",
     desc: "Rahul leads the company with a strong vision for growth and innovation.",
   },
