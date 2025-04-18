@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-scroll";
 import { NavLink, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const location = useLocation();
@@ -26,6 +26,17 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [location.pathname]);
+
+  // This function will collapse the navbar after clicking a link
+  const handleNavItemClick = () => {
+    const navbar = document.getElementById("navbarNavDropdown");
+    if (navbar && window.innerWidth < 1200) {
+      const bsCollapse = new window.bootstrap.Collapse(navbar, {
+        toggle: false,
+      });
+      bsCollapse.hide();
+    }
+  };
 
   return (
     <nav
@@ -54,44 +65,70 @@ const Navbar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/" exact>
+              <NavLink
+                className="nav-link"
+                to="/"
+                exact="true"
+                onClick={handleNavItemClick}
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/services">
+              <NavLink
+                className="nav-link"
+                to="/services"
+                onClick={handleNavItemClick}
+              >
                 Services
               </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/about">
+              <NavLink
+                className="nav-link"
+                to="/about"
+                onClick={handleNavItemClick}
+              >
                 About Us
               </NavLink>
             </li>
-
             <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/clients">
+              <NavLink
+                className="nav-link"
+                to="/clients"
+                onClick={handleNavItemClick}
+              >
                 Clients
               </NavLink>
             </li>
             {/* <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/admission">
+              <NavLink className="nav-link" to="/admission" onClick={handleNavItemClick}>
                 Admission
               </NavLink>
             </li> */}
             <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/gallery">
+              <NavLink
+                className="nav-link"
+                to="/gallery"
+                onClick={handleNavItemClick}
+              >
                 Gallery
               </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <NavLink className="nav-link" to="/team">
-               Team
+              <NavLink
+                className="nav-link"
+                to="/team"
+                onClick={handleNavItemClick}
+              >
+                Team
               </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <NavLink to="/contact">
-                <button className="nav-btn btn rgb-border-btn">Contact Us</button>
+              <NavLink to="/contact" onClick={handleNavItemClick}>
+                <button className="nav-btn btn rgb-border-btn">
+                  Contact Us
+                </button>
               </NavLink>
             </li>
           </ul>
