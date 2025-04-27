@@ -22,29 +22,30 @@ const About = ({ setPlayState }) => {
         <div className="about-right">
           <h3>ABOUT US</h3>
           <h2>Mission</h2>
-          <h5>
-            Our mission is to save companies from wasteful, ineffective digital
-            marketing.
-          </h5>
+          <h5> Welcome to MJ Media</h5>
           <br />
           <p>
-            By adopting a data-driven approach with an integrated digital
-            marketing strategy combined with machine-learning technology, we
-            help you get maximum results from your budget.By adopting a
-            data-driven approach with an integrated digital marketing strategy
-            combined with machine-learning technology, we help you get maximum
-            results from your budget.
+            Where creativity meets conversion! 🚀 We’re not just another digital
+            marketing agency — we’re your growth partners. From viral social
+            media campaigns to high-converting ad strategies, we help your brand
+            shine in the digital spotlight. Whether you're launching a new
+            business or scaling an empire, MJ Media brings bold ideas, smart
+            strategies, and real results.
           </p>
           <br />
           <h5>
-            We help companies achieve long-term growth by becoming their
-            personal marketing department not as a typical “vendor”
+            MJ Media is a results-driven digital marketing agency dedicated to
+            helping brands grow in the online world. We specialize in social
+            media marketing, SEO, paid advertising, branding, and content
+            creation — all tailored to meet your business goals.
           </h5>
 
           <h6>
-            At MJ.MEDIA, we've developed an exclusive team of certified digital
-            experts wit deep expertise in conversion optimization (the science
-            of converting visitors into customer from your website)
+            At MJ Media, we believe in creativity, consistency, and smart
+            strategies. Whether you're a startup or an established brand, we
+            bring the tools and expertise to boost your online presence and
+            drive real results. Let us help you turn clicks into customers, and
+            ideas into impact.
           </h6>
         </div>
       </div>

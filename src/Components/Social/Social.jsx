@@ -25,7 +25,7 @@ const Social = () => {
           <div
             className="image-bg"
             style={{ backgroundImage: `url(${gallary_2})` }}
-          ></div>
+          ></div> 
           <img className="icon" src={gallary_2} alt="icon" />
         </div>
         <div className="gallery-item">

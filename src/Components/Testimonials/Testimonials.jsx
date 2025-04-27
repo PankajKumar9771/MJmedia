@@ -3,10 +3,10 @@ import "./Testimonials.css";
 import next_icon from "../../assets/next-icon.png";
 import back_icon from "../../assets/back-icon.png";
 
-import user_1 from "../../assets/user-1.png";
-import user_2 from "../../assets/user-2.png";
-import user_3 from "../../assets/user-3.png";
-import user_4 from "../../assets/user-4.png";
+import user_1 from "../../assets/client1.jpg";
+import user_2 from "../../assets/client2.jpg";
+import user_3 from "../../assets/client3.jpg";
+import user_4 from "../../assets/client4.jpg";
 
 const Testimonials = () => {
   const slider = useRef();
@@ -14,16 +14,16 @@ const Testimonials = () => {
 
   const slideForward = () => {
     if (tx > -50) {
-      tx-= 25;
+      tx -= 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
 
-    const slideBackward = () => {
-         if (tx < 0) {
-           tx += 25;
-         }
-         slider.current.style.transform = `translateX(${tx}%)`;
+  const slideBackward = () => {
+    if (tx < 0) {
+      tx += 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`;
   };
   return (
     <div className="testimonials">
@@ -52,10 +52,9 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                mollitia quis aperiam aut deleniti harum quisquam veniam maiores
-                nesciunt dolor soluta dolorum ullam illum placeat vel, saepe
-                aspernatur ut debitis illo amet, consequuntur voluptatibus.
+                "Working with MJMedia was a game-changer for our business! Their
+                team helped us increase our social media presence and drive real
+                sales. Super professional and easy to work with!" 
               </p>
             </div>
           </li>
@@ -70,10 +69,9 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                mollitia quis aperiam aut deleniti harum quisquam veniam maiores
-                nesciunt dolor soluta dolorum ullam illum placeat vel, saepe
-                aspernatur ut debitis illo amet, consequuntur voluptatibus.
+                "MJMedia completely transformed our online marketing strategy.
+                From Google Ads to SEO, they handled everything smoothly and
+                delivered outstanding results. We're seeing more traffic!"
               </p>
             </div>
           </li>
@@ -89,10 +87,10 @@ const Testimonials = () => {
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                mollitia quis aperiam aut deleniti harum quisquam veniam maiores
-                nesciunt dolor soluta dolorum ullam illum placeat vel, saepe
-                aspernatur ut debitis illo amet, consequuntur voluptatibus.
+                "We partnered with MJMedia for our song promotion and the
+                results were incredible! The team understood our vision and made
+                it viral across Instagram and YouTube. Very happy with their
+                creative approach!"
               </p>
             </div>
           </li>
@@ -107,10 +105,10 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                mollitia quis aperiam aut deleniti harum quisquam veniam maiores
-                nesciunt dolor soluta dolorum ullam illum placeat vel, saepe
-                aspernatur ut debitis illo amet, consequuntur voluptatibus.
+                "MJMedia's expertise in website development and digital
+                advertising helped us grow our brand online. Their support team
+                is always available, and they truly care about client success.
+                Thank you for everything!"
               </p>
             </div>
           </li>

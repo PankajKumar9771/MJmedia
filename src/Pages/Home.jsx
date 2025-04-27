@@ -7,7 +7,8 @@ import Marquee from "../Components/Marquee/Marquee";
 import Social from "../Components/Social/Social";
 import About from "../Components/About/About";
 import Programs from "../Components/Programs/Program";
-import Faculities from "../Components/Faculities/Faculities";
+// import Faculities from "../Components/Faculities/Faculities";
+import Testimonials from "../Components/Testimonials/Testimonials";
 import ContactForm from "../Components/ContactForm/ContactForm";
 
 const Home = () => {
@@ -21,11 +22,11 @@ const Home = () => {
           <Title subtitle={"Our Services"} title={"What We Offer"} />
           <Programs />
         </div>
-        <About setPlayState={setPlayState} />
+        {/* <About setPlayState={setPlayState} /> */}
         <Title subtitle={""} title={"Platform We Use"} />
         <Social />
         <Title subtitle={"Clients"} title={"Our Clients"} />
-        <Faculities />
+        <Testimonials />
         <Title subtitle={""} title={"More Than 500+ Brands Trust MJ.Media"} />
         <Marquee />
         <Title subtitle={"Contact us"} title={"Get in Touch"} />

@@ -16,7 +16,7 @@ const ContactForm = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "c56f9314-e163-4cbc-8681-953411b1a2f1");
+    formData.append("access_key", "9a460141-cfb6-4fdc-a33c-aba55519aa45");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -73,13 +73,40 @@ const ContactForm = () => {
             placeholder="Enter your name"
             required
           />
-          <label htmlFor="phone">Email</label>
+          <label htmlFor="emial">Email</label>
           <input
             type="email"
             name="email"
             placeholder="Enter your Email"
             required
           />
+          <label htmlFor="phone">Phone</label>
+          <input
+            type="phone"
+            name="phone"
+            placeholder="Enter your Phone"
+            required
+          />
+          <label htmlFor="phone">Services</label>
+          <br />
+          <select name="services" id="services">
+            <option value="Personal-Branding">Personal-Branding</option>
+            <option value="Meme-Marketing">Meme Marketing</option>
+            <option value="Search Engine Optimization">
+              Search Engine Optimization
+            </option>
+            <option value="NewsPaper/Offline Branding">
+              NewsPaper/Offline Branding
+            </option>
+            <option value="Song Promotion">Song Promotion</option>
+            <option value="Instagram-handling">Instagram-handling</option>
+            <option value="Social-Media">Social-Media</option>
+            <option value="Google-Ads">Google-Ads</option>
+            <option value="Youtube Handling">Youtube Handling</option>
+            <option value="Website & App Development">Website & App Development</option>
+          </select>
+          <br />
+
           <label htmlFor="message">Write your message here</label>
           <textarea
             name="message"

@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { NavLink, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);

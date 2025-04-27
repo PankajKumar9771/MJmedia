@@ -1,25 +1,34 @@
 import React from "react";
 import "./Team.css";
 import Title from "../Title/Title";
-
+import founder from "../../assets/founder.jpg";
+import CoFounder from "../../assets/ceo.jpg";
+import CreativeDirector from "../../assets/creative_director.jpg";
+import webDev from "../../assets/webdev.jpg";
 const teamMembers = [
   {
-    title: "CEO",
+    title: "Founder",
     name: "Aman Kumar Gupta",
-    img: "https://static.vecteezy.com/system/resources/thumbnails/028/794/707/small_2x/cartoon-cute-school-boy-photo.jpg",
-    desc: "Rahul leads the company with a strong vision for growth and innovation.",
+    img: founder,
+    desc: "Aman is the visionary behind our innovative approach to education.",
   },
   {
-    title: "Director",
-    name: "Anjali Verma",
-    img: "https://static.vecteezy.com/system/resources/thumbnails/028/794/707/small_2x/cartoon-cute-school-boy-photo.jpg",
-    desc: "Anjali oversees strategy and ensures all departments work in synergy.",
+    title: "Co-Founder",
+    name: "Rohan Kumar",
+    img: CoFounder,
+    desc: "Rohan is the driving force behind our strategic initiatives.",
   },
   {
-    title: "Manager",
-    name: "Vikram Patel",
-    img: "https://static.vecteezy.com/system/resources/thumbnails/028/794/707/small_2x/cartoon-cute-school-boy-photo.jpg",
-    desc: "Vikram manages daily operations and maintains team productivity.",
+    title: "Creative Director",
+    name: "Ayankita",
+    img: CreativeDirector,
+    desc: "Ayankita leads our creative team with a passion for design and innovation.",
+  },
+  {
+    title: "Developer Team Lead",
+    name: "Parthik",
+    img: webDev,
+    desc: "Parthik is the mastermind behind our cutting-edge technology solutions.",
   },
 ];
 

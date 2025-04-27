@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import Achedemics from "./Pages/Achedemics";
+import Services from "./Pages/Services";
 import About from "./Components/About/About";
 import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Explore from "./Pages/Explore";
-import Admission from "./Pages/Admission";
-import Faculity from "./Pages/Faculity";
+import Clients from "./Pages/Clients";
 import Gallery from "./Pages/Gallery";
-import Student from "./Pages/Student";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
-import Testimonials from "./Components/Testimonials/Testimonials";
 import Team from "./Components/Team/Team";
 import PersonalBranding from "./Components/ServicesPages/PersonalBranding";
 import MemeMarketing from "./Components/ServicesPages/MemeMarketing";
@@ -24,6 +21,7 @@ import YoutubeHandle from "./Components/ServicesPages/YoutubeHandle";
 import SongPromo from "./Components/ServicesPages/SongPromo";
 import Development from "./Components/ServicesPages/Development";
 import SEO from "./Components/ServicesPages/Seo";
+
 const App = () => {
   const [playState, setPlayState] = useState(false);
 
@@ -37,9 +35,8 @@ const App = () => {
             path="/about"
             element={<About setPlayState={setPlayState} />}
           />
-          <Route path="/services" element={<Achedemics />} />
-          <Route path="/admission" element={<Admission />} />
-          <Route path="/clients" element={<Faculity />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/clients" element={<Clients />} />
           <Route
             path="/gallery"
             element={<Gallery setPlayState={setPlayState} />}
@@ -47,7 +44,6 @@ const App = () => {
           <Route path="/explore" element={<Explore />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />;
-          <Route path="/students" element={<Student />} />
           <Route path="/personal-branding" element={<PersonalBranding />} />
           <Route path="/meme-marketing" element={<MemeMarketing />} />
           <Route

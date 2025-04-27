@@ -43,7 +43,8 @@
 }
 
 .contact form input,
-.contact form textarea {
+.contact form textarea,
+.contact form select {
   display: block;
   width: 100%;
   background: #ebecfe;

@@ -48,6 +48,12 @@
 .caption p{
 text-align: center;
 }
+.program a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 
 
 @media (max-width: 650px){

@@ -10,8 +10,12 @@ import gallary_7 from "../../assets/PokerStars.webp";
 import gallary_8 from "../../assets/infinix.webp";
 import gallary_9 from "../../assets/Omen.webp";
 import gallary_10 from "../../assets/boat.webp";
-import white_arrow from "../../assets/white-arrow.png";
-import { Link } from "react-router-dom";
+import gallary_11 from "../../assets/urban.jpeg";
+import gallary_12 from "../../assets/iplWin.png";
+import gallary_13 from "../../assets/chingari.jpeg";
+import gallary_14 from "../../assets/googleReviews.png";
+import gallary_15 from "../../assets/howzat.jpeg";
+import gallary_16 from "../../assets/indiluck.avif";
 
 const images = [
   gallary_1,
@@ -24,6 +28,12 @@ const images = [
   gallary_8,
   gallary_9,
   gallary_10,
+  gallary_11,
+  gallary_12,
+  gallary_13,
+  gallary_14,
+  gallary_15,
+  gallary_16,
 ];
 
 const Marquee = () => {
@@ -38,8 +48,6 @@ const Marquee = () => {
           ))}
         </div>
       </div>
-
-     
     </div>
   );
 };

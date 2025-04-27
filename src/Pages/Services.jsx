@@ -1,9 +1,8 @@
 import React from "react";
-import Programs from "../Components/Programs/Program";
 import Title from "../Components/Title/Title";
 import TeachingMethod from "../Components/TeachingMethod/TeachingMethod";
 
-const Achedemics = () => {
+const Services = () => {
   return (
     <div>
       <Title subtitle={"Our Services"} title={"What We Offer"} />
@@ -13,4 +12,4 @@ const Achedemics = () => {
   );
 };
 
-export default Achedemics;
+export default Services;
