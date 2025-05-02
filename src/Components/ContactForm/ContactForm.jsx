@@ -87,23 +87,13 @@ const ContactForm = () => {
             placeholder="Enter your Phone"
             required
           />
-          <label htmlFor="phone">Services</label>
+         
           <br />
           <select name="services" id="services">
-            <option value="Personal-Branding">Personal-Branding</option>
-            <option value="Meme-Marketing">Meme Marketing</option>
-            <option value="Search Engine Optimization">
-              Search Engine Optimization
-            </option>
-            <option value="NewsPaper/Offline Branding">
-              NewsPaper/Offline Branding
-            </option>
-            <option value="Song Promotion">Song Promotion</option>
-            <option value="Instagram-handling">Instagram-handling</option>
-            <option value="Social-Media">Social-Media</option>
-            <option value="Google-Ads">Google-Ads</option>
-            <option value="Youtube Handling">Youtube Handling</option>
-            <option value="Website & App Development">Website & App Development</option>
+            <option value="">select</option>
+            <option value="Brands">Brands</option>
+            <option value="Mediaterre">Mediaterre</option>
+            <option value="Influencer">Influencer</option>
           </select>
           <br />
 
