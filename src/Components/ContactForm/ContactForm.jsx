@@ -40,9 +40,11 @@ const ContactForm = () => {
         <h3>
           Send us a message <img src={msg_icon} alt="" />
         </h3>
+        <p>Address : New ashok nagar, delhi , pin code -110096</p>
         <p>
-          V.H.R Boys Hostel, 123 Education Lane, Cityville, State:UttarPradesh,
-          ZIP:250005
+          We’re not just an agency — we’re your growth partner. Whether you're a
+          startup, local shop, or digital brand, we ensure your online presence
+          speaks louder, cleaner, and more trustable.
         </p>
         <ul>
           <li>
@@ -87,7 +89,7 @@ const ContactForm = () => {
             placeholder="Enter your Phone"
             required
           />
-         
+
           <br />
           <select name="services" id="services">
             <option value="">select</option>

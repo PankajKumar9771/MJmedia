@@ -25,13 +25,15 @@ const About = ({ setPlayState }) => {
           <h5> Welcome to MJ Media</h5>
           <br />
           <p>
-            Where creativity meets conversion! 🚀 We’re not just another digital
-            marketing agency — we’re your growth partners. From viral social
-            media campaigns to high-converting ad strategies, we help your brand
-            shine in the digital spotlight. Whether you're launching a new
-            business or scaling an empire, MJ Media brings bold ideas, smart
-            strategies, and real results.
+            {" "}
+            At <b> MJMEDIA.IN </b>, we help businesses grow online with smart
+            digital strategies. Founded by passionate digital marketers, we
+            specialize in: Service about kon kon sa deta hu - (10) We’re not
+            just an agency — we’re your growth partner. Whether you're a
+            startup, local shop, or digital brand, we ensure your online
+            presence speaks louder, cleaner, and more trustable.
           </p>
+          
           <br />
           <h5>
             MJ Media is a results-driven digital marketing agency dedicated to

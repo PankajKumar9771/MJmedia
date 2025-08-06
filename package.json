@@ -20,7 +20,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
     "react-scroll": "^1.9.0",
-    "react-swift-reveal": "^1.1.0"
+    "react-swift-reveal": "^1.1.0",
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

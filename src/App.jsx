@@ -21,7 +21,7 @@ import YoutubeHandle from "./Components/ServicesPages/YoutubeHandle";
 import SongPromo from "./Components/ServicesPages/SongPromo";
 import Development from "./Components/ServicesPages/Development";
 import SEO from "./Components/ServicesPages/Seo";
-
+import SwiperSlider from "./Components/SwiperSlider";
 const App = () => {
   const [playState, setPlayState] = useState(false);
 
@@ -60,6 +60,7 @@ const App = () => {
         </Routes>
         <VideoPlayer setPlayState={setPlayState} playState={playState} />
       </div>
+
       <Footer />
     </>
   );

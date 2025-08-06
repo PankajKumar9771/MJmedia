@@ -3,7 +3,7 @@ import "./Footer.css";
 import whatsapp_icon from "../../assets/icons8-whatsapp-48.png";
 import instagram_icon from "../../assets/icons8-instagram-48.png";
 import linkedin_icon from "../../assets/icons8-linkedin-48.png";
-import email_icon from "../../assets/icons8-gmail-48.png";  
+import email_icon from "../../assets/icons8-gmail-48.png";
 import youtube_icon from "../../assets/icons8-youtube-48.png";
 import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
             >
               <img src={whatsapp_icon} alt="" />
             </a>
-            <a href="https://www.youtube.com/@MJMEDIAMAHOBA" target="_main">
+            <a href="https://www.youtube.com/" target="_main">
               <img src={youtube_icon} alt="" />
             </a>
             <a
@@ -69,7 +69,8 @@ const Footer = () => {
               <li>+91 99924 60014</li>
             </a>
             <a href="mailto:mjmediainfo01@gmail.com?subject=Your%20Subject%20Here">
-              <li>mjmediainfo01@gmail.com</li>
+              <li>team@mjmedia.in</li>
+              <li>www.mjmedia.in</li>
             </a>
           </ul>
         </div>
