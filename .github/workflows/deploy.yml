@@ -30,4 +30,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/           # Local build output folder
-          server-dir: /public_html/  # Destination folder on Hostinger
+          server-dir: /home/u532315139/domains/mjmedia.in/public_html
