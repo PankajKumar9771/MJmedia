@@ -29,4 +29,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/    # ✅ Added trailing slash so it's recognized as a folder
+          local-dir: dist/        # Your build output folder (could be 'build/' for CRA)
+          server-dir: public_html/ # Where Hostinger serves your website
+          dangerous-clean-slate: true
