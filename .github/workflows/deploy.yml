@@ -29,5 +29,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/
-          server-dir: /home/u532315139/domains/mjmedia.in/public_html/
+          local-dir: dist/                # Upload only the contents of dist
+          server-dir: /public_html/       # Website root folder
+          dangerous-clean-slate: true     # Wipes old files before upload
