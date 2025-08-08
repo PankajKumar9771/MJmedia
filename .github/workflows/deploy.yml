@@ -29,5 +29,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/           # Local build output folder
-          server-dir: /home/u532315139/domains/mjmedia.in/public_html
+          local-dir: dist/
+          server-dir: /home/u532315139/domains/mjmedia.in/public_html/
+          dangerous-clean-slate: true   # Deletes old files before upload
