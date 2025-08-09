@@ -50,8 +50,8 @@ const ContactForm = () => {
           <li>
             <img src={mail_icon} alt="" />
 
-            <a href="mailto:mjmediainfo01@gmail.com?subject=Your%20Subject%20Here">
-              mjmediainfo01@gmail.com
+            <a href="mailto:team@mjmedia.com?subject=Your%20Subject%20Here">
+              team@mjmedia.com
             </a>
           </li>
           <li>
@@ -61,7 +61,7 @@ const ContactForm = () => {
           <Link to={"/contact"}>
             <li>
               <img src={location_icon} alt="" />
-              UttarPradesh , India
+              New Ashook Nagar, Delhi, Pin Code -110096
             </li>
           </Link>
         </ul>
